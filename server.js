@@ -13,7 +13,7 @@ app.use('/api/contacts', contactRoutes);
 app.use('/api/users', userRoutes);
 
 app.get('/', function(req, res) {
-    res.send('Hello World!');
+    res.send('test route');
     }
 );
 
